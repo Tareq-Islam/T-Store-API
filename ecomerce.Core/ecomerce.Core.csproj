@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface\" />
+    <Folder Include="Email\" />
+    <Folder Include="Message\" />
+    <Folder Include="Logger\" />
+    <Folder Include="Report\" />
+    <Folder Include="Payment\" />
+    <Folder Include="Inventory\" />
+  </ItemGroup>
+
+</Project>

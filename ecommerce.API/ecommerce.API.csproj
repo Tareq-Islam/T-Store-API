@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ecomerce.Core\ecomerce.Core.csproj" />
+    <ProjectReference Include="..\ecommerce.Entity\ecommerce.Entity.csproj" />
+    <ProjectReference Include="..\ecommerce.Identity\ecommerce.Identity.csproj" />
+    <ProjectReference Include="..\ecommerce.Repo\ecommerce.Repo.csproj" />
+    <ProjectReference Include="..\ecommerce.ViewModel\ecommerce.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
